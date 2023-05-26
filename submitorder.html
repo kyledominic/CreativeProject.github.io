@@ -79,30 +79,30 @@
     <form class="row g-3" method="POST" action="https://api.slapform.com/UweAP1sQrm">
         <h3>Contact Information</h3>
         <div class="col-md-4">
-          <label for="fullname" class="form-label">Full Name</label>
-          <input type="text" class="form-control" id="fullname" placeholder="First Name Last Name">
+          <label for="fullname" class="form-label" >Full Name</label>
+          <input name="Full Name" type="text" class="form-control" id="fullname" placeholder="First Name Last Name">
         </div>
         <div class="col-md-4">
           <label for="email" class="form-label">Email Address</label>
-          <input type="email" class="form-control" id="email" placeholder="yourmail@mail.com">
+          <input type="email" class="form-control" id="email" name="Email Address" placeholder="yourmail@mail.com">
         </div>
         <div class="col-md-4">
             <label for="phonenumber" class="form-label">Phone Number</label>
-            <input type="text" class="form-control" id="phonenumber" placeholder="09XXXXXXXXX">
+            <input name="Phone Number" type="text" class="form-control" id="phonenumber" placeholder="09XXXXXXXXX">
           </div>
 
           <h3>Delivery Address:</h3>
         <div class="col-12">
           <label for="Address1" class="form-label">Region | City | District</label>
-          <input type="text" class="form-control" id="Address1" placeholder="NCR, Caloocan City, District 12">
+          <input name="Region/City/District" type="text" class="form-control" id="Address1" placeholder="NCR, Caloocan City, District 12">
         </div>
         <div class="col-md-6">
           <label for="Address2" class="form-label">Street | Building | Unit no.</label>
-          <input type="text" class="form-control" id="Address2" placeholder="1234 Main St., My Building, Unit no. 123">
+          <input name="Street/Building/Unit" type="text" class="form-control" id="Address2" placeholder="1234 Main St., My Building, Unit no. 123">
         </div>
         <div class="col-md-4">
           <label for="inputState" class="form-label">State</label>
-          <select id="inputState" class="form-select">
+          <select name="State" id="inputState" class="form-select">
             <option selected>Choose...</option>
             <option>Abra</option>
             <option>Bulacan</option>
@@ -114,14 +114,14 @@
         </div>
         <div class="col-md-2">
           <label for="inputZip" class="form-label">Zip</label>
-          <input type="text" class="form-control" id="inputZip">
+          <input name="Zip" type="text" class="form-control" id="inputZip">
         </div>
         
         <h3>Order Details:</h3>
 
         <div class="col-md-4">
             <label for="Printing Type" class="form-label">Printing Type:</label>
-            <select id="Printing Type" class="form-select">
+            <select name="Printing Type" id="Printing Type" class="form-select">
               <option selected>Choose...</option>
               <option>Offset Printing</option>
               <option>Promotional Products</option>
@@ -132,11 +132,11 @@
           </div>
           <div class="col-md-2">
             <label for="Quantity" class="form-label">Quantity:</label>
-            <input type="text" class="form-control" id="Quantity">
+            <input name="Quantity" type="text" class="form-control" id="Quantity" placeholder="Amount">
           </div>
           <div class="col-md-2">
             <label for="Size" class="form-label">Size:</label>
-            <input type="text" class="form-control" id="Size">
+            <input name="Size" type="text" class="form-control" id="Size" placeholder="Number/Label">
           </div>
           <div class="col-md-4">
             <label for="Material Type" class="form-label">Material Type:</label>
@@ -151,12 +151,12 @@
           </div>
           <div class="col-md-6">
             <label for="Color" class="form-label">Color/s:</label>
-            <input type="text" class="form-control" id="Color" placeholder="1234 Main St., My Building, Unit no. 123">
+            <input name="Color" type="text" class="form-control" id="Color" placeholder="eg. Blue, Yellow">
           </div>
 
           <div class="col-md-6">
             <label for="Finishing Options" class="form-label">Finishing Options:</label>
-            <select id="Finishing Options" class="form-select">
+            <select name="Finishing Options" id="Finishing Options" class="form-select">
               <option selected>Choose...</option>
               <option>Trimming</option>
               <option>Binding</option>
@@ -170,7 +170,7 @@
 
           <div class="col-md-12">
             <label for="Additional Information" class="form-label">Additional Information:</label>
-            <textarea class="form-control" id="Additional Information" rows="6"></textarea>
+            <textarea name="Additional Information" class="form-control" id="Additional Information" rows="6" placeholder="Tell us more about your order"></textarea>
 
           </div>
 
