@@ -1,0 +1,363 @@
+
+  * {
+  box-sizing: border-box;
+}
+  .minilogo {
+    width: 50px;
+    height: 50px;
+    margin-top: 7px;
+    margin-left: 5px;
+    margin-right: 10px;
+  }
+  .aboutpagebg {
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+    object-fit: cover;
+    width: 100%;
+    
+    height: auto;
+    
+    position: relative;
+    
+    left: 0;
+    
+  }
+  
+  
+  .mainpagebg {
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+    object-fit: cover;
+    width: 80%;
+    
+    height: auto;
+    
+    position: relative;
+    
+    left: 0;
+    
+  }
+
+  .mainpagebg2 {
+    position: relative;
+    max-width: 50%;
+    max-height: 100%;
+    bottom:0;
+    width: 100%;
+    height: auto;
+    float: right;
+    
+    
+      }
+
+.jumbotron {
+    
+max-width: 50%;
+
+float: left;
+
+padding-left: 8vw;
+padding-top: 8vw;
+bottom:0;
+
+position: relative;
+
+
+}
+
+.jumbotron2 {
+    
+   
+    
+    float: left;
+    
+    padding-left: 10vw; 
+    padding-bottom: 5vw; 
+    padding-right: 10vw; 
+    
+    position: relative;
+    text-align: center;
+    background-color: white;
+    
+    }
+
+    .jumbotron3 {
+        float: left;
+        padding-left: 25vw; 
+        padding-right: 25vw; 
+    padding-bottom: 0vw; 
+    font-size: 1.25vw;
+    
+    
+    position: relative;
+    text-align: center;
+    background-image: url(/images/hbbg.png);
+    background-size: 100%;
+    background-color: #D38C79;
+    background-repeat: no-repeat;
+    color: white;
+    
+    }
+
+    .jumbotron4 {
+        float: left;
+        padding-left: 5vw; 
+        padding-right: 5vw; 
+    padding-bottom: 1vw; 
+    padding-top: 5vw;
+    
+    position: relative;
+    text-align: center;
+    
+    background-color: #F3E9E3;
+    
+    
+    
+    }
+
+    .row {
+        padding-left: 5vw; 
+        padding-right: 5vw; 
+    }
+
+    .psdesc {
+        float: left;
+        padding-left: 10vw; 
+        padding-right: 10vw; 
+    padding-bottom: 2vw; 
+    
+    
+    position: relative;
+    text-align: center;
+    
+   
+    
+    }
+
+    .accordion {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    }
+
+    .jumbotron3 h2{
+    
+   
+    
+        float: top;
+        
+        padding-bottom: 3vw; 
+        padding-top: 4vw; 
+        
+        
+        position: relative;
+        text-align: center;
+        color: white;
+        }
+    
+
+    .jumbotron2 h2{
+    
+   
+    
+        float: top;
+        
+        padding: 5vw; 
+        
+        
+        position: relative;
+        text-align: center;
+        background-color: white;
+        }
+
+       
+
+
+
+
+.jumbotron h2 {
+    font-size: 7vw;
+}
+
+.lead1 {
+    font-size: 1.7vw !important;
+    font-weight: 300;
+}
+
+.jumbotron p {
+    font-size: 1.3vw;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+
+    .jumbotron3 {
+        float: left;
+        padding-left: 2vw; 
+        padding-right: 2vw; 
+        font-size: 1.45vw;
+    
+    
+    position: relative;
+    text-align: center;
+    
+    background-size: 100%;
+    background-color: #D38C79;
+    
+    color: white;
+    
+    }
+
+
+    .jumbotron {
+        max-width: 100%;
+        float: left;
+        
+        padding-top: 0px;
+
+padding-left: 3vw;
+padding-right: 3vw;
+        
+        
+        position: relative;
+        
+        
+        }
+        .jumbotron p {
+            font-size: 2.2vw;
+          }
+          .jumbotron h2 {
+              font-size: 7vw;
+              
+                  margin-top: 3vw;
+          
+          }
+          .lead1 {
+              font-size: 3vw !important;
+              font-weight: 300;
+          }
+}
+
+@media screen and (max-width: 600px) {
+
+    .jumbotron3 {
+        float: left;
+        padding-left: 2vw; 
+        padding-right: 2vw; 
+        font-size: 3vw;
+    
+    
+    position: relative;
+    text-align: center;
+    
+    background-size: 100%;
+    background-color: #D38C79;
+    
+    color: white;
+    
+    }
+
+
+    .jumbotron p {
+      font-size: 2.2vw;
+    }
+    .jumbotron h2 {
+        font-size: 7vw;
+        
+        margin-top: 3vw;
+    
+    }
+    .lead1 {
+        font-size: 3vw !important;
+        font-weight: 300;
+    }
+
+    .mainpagebg2c video{
+        
+        object-fit: cover;
+        max-width: 100% ;
+height: auto;
+
+position: relative;
+float: right;
+right: 0;
+
+          }
+    .jumbotron {
+        max-width: 100%;
+        float: left;
+        
+        padding-top: 0px;
+
+        padding-left: 3vw;
+        padding-right: 3vw;
+        
+        
+        position: relative;
+        
+        
+        }
+        .btn {
+            
+        max-width: 20vw;
+
+font-size: 2vw !important;
+    }
+        
+}
+
+
+.btn{
+margin-bottom: 5px;
+
+
+
+}
+
+
+  
+
+  footer {
+    background-color: #4D3E32;
+    color: #fff;
+    width: 100%;
+    padding: 10px 16px;
+    bottom: 0;
+    
+    display: block;
+    overflow: hidden;
+    
+    position: relative;
+   
+    
+    
+  }
+  .footerimg {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: auto;
+    
+  }
+
+
+ 
+
+
+  /* modal */
+
+  
+  
+
+  /*products carousel*/
+
+  

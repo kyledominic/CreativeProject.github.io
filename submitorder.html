@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit an Order</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+
+    
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        
+        <div class="container-fluid">
+            
+          <a class="navbrand" href="index.html" ><video class="minilogo" src="./videos/minilogo.mp4" autoplay loop playsinline muted></video></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              
+
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="about.html">About</a>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Creative Project
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="products_services.html">Products & Services</a></li>
+                  <li><a class="dropdown-item" href="#">How it works</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="news_featured.html">News & Featured <span class="badge text-bg-secondary">6</span></a></li>
+                </ul>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="submitorder.html">Submit an Order</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">My Account</a>
+              </li>
+            </ul>
+            <div class="nav-item text-nowrap">
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Login or Sign up
+              </button>
+              </div>
+          </div>
+        </div>
+      </nav>
+      
+
+
+      <div class="jumbotron2" style="text-align: left;">
+        <h2 class="display-4" style="font-size: 4.5vw; padding-bottom: 1vw;">◇◇ Order Process ◇◇</h2>
+    <!--<p class="lead">Welcome to Creative Project, your one-stop destination for all your printing needs.  </p>-->
+    <video style="margin-top: 4vw; margin-bottom: 3vw;" class="aboutpagebg" src="./videos/orderprocess.mp4" autoplay loop playsinline muted></video>
+    <a style="padding-left: 65vw; font-size: 1.5vw; text-decoration: none;" href="how_it_works.html">Learn More</a>
+    <hr class="my-4">
+
+
+    
+      
+    <form class="row g-3" method="POST" action="https://api.slapform.com/UweAP1sQrm">
+        <h3>Contact Information</h3>
+        <div class="col-md-4">
+          <label for="fullname" class="form-label">Full Name</label>
+          <input type="text" class="form-control" id="fullname" placeholder="First Name Last Name">
+        </div>
+        <div class="col-md-4">
+          <label for="email" class="form-label">Email Address</label>
+          <input type="email" class="form-control" id="email" placeholder="yourmail@mail.com">
+        </div>
+        <div class="col-md-4">
+            <label for="phonenumber" class="form-label">Phone Number</label>
+            <input type="text" class="form-control" id="phonenumber" placeholder="09XXXXXXXXX">
+          </div>
+
+          <h3>Delivery Address:</h3>
+        <div class="col-12">
+          <label for="Address1" class="form-label">Region | City | District</label>
+          <input type="text" class="form-control" id="Address1" placeholder="NCR, Caloocan City, District 12">
+        </div>
+        <div class="col-md-6">
+          <label for="Address2" class="form-label">Street | Building | Unit no.</label>
+          <input type="text" class="form-control" id="Address2" placeholder="1234 Main St., My Building, Unit no. 123">
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">State</label>
+          <select id="inputState" class="form-select">
+            <option selected>Choose...</option>
+            <option>Abra</option>
+            <option>Bulacan</option>
+            <option>Cagayan</option>
+            <option>Cebu</option>
+            <option>Davao Occidental</option>
+
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">Zip</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+        
+        <h3>Order Details:</h3>
+
+        <div class="col-md-4">
+            <label for="Printing Type" class="form-label">Printing Type:</label>
+            <select id="Printing Type" class="form-select">
+              <option selected>Choose...</option>
+              <option>Offset Printing</option>
+              <option>Promotional Products</option>
+              <option>Direct To Film</option>
+              <option>Large Format Printing</option>
+              
+            </select>
+          </div>
+          <div class="col-md-2">
+            <label for="Quantity" class="form-label">Quantity:</label>
+            <input type="text" class="form-control" id="Quantity">
+          </div>
+          <div class="col-md-2">
+            <label for="Size" class="form-label">Size:</label>
+            <input type="text" class="form-control" id="Size">
+          </div>
+          <div class="col-md-4">
+            <label for="Material Type" class="form-label">Material Type:</label>
+            <select id="Material Type" class="form-select">
+              <option selected>Choose...</option>
+              <option>T-Shirts</option>
+              <option>Paper</option>
+              <option>Vinyl</option>
+              <option>Sublimation Paper</option>
+              
+            </select>
+          </div>
+          <div class="col-md-6">
+            <label for="Color" class="form-label">Color/s:</label>
+            <input type="text" class="form-control" id="Color" placeholder="1234 Main St., My Building, Unit no. 123">
+          </div>
+
+          <div class="col-md-6">
+            <label for="Finishing Options" class="form-label">Finishing Options:</label>
+            <select id="Finishing Options" class="form-select">
+              <option selected>Choose...</option>
+              <option>Trimming</option>
+              <option>Binding</option>
+              <option>Lamination</option>
+
+                
+              
+              
+            </select>
+          </div>
+
+          <div class="col-md-12">
+            <label for="Additional Information" class="form-label">Additional Information:</label>
+            <textarea class="form-control" id="Additional Information" rows="6"></textarea>
+
+          </div>
+
+          <h3>Artwork and Design:</h3>
+          <div class="col-md-12">
+            <label for="Designs" class="form-label">Attach your Design/s here (if applicable):</label>
+            <input class="form-control" type="file" id="Designs" multiple>
+          </div>
+          <div class="col-md-12">
+            <label for="Design Description" class="form-label">Design Description (if applicable):</label>
+            <textarea class="form-control" id="Design Description" rows="6"></textarea>
+
+          </div>
+        
+        <p>[Note: Additional forms will be added soon.]</p>
+
+        
+
+       
+
+
+
+
+        <div class="col-12">
+          <center><button type="submit" class="btn btn-primary">Submit Your Order</button></center>
+        </div>
+      
+    
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <hr class="my-4">
+      <h3>Important Note:</h3>
+    <ul class="list-group list-group-numbered">
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">Customer Satisfaction:</div>
+            Our goal is to ensure your complete satisfaction with our printing services. If you have any concerns or questions throughout the process, please don't hesitate to reach out to our customer service team. We are here to assist you and address any issues promptly.
+          </div>
+          
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">Proofing:</div>
+            It's crucial to carefully review the proof provided before giving final approval for printing. Check for any errors, typos, or design discrepancies. Once approved, changes may not be possible, and any reprints may incur additional costs.
+          </div>
+          
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">Artwork Submission:</div>
+            Please ensure that the artwork files are high-resolution and meet our specified requirements (e.g., file format, bleed, color mode). If you need assistance with artwork preparation, please contact our team for support.
+          </div>
+          
+        </li>
+      </ul>  
+
+
+
+    <p class="teamdesc" style="padding: 3vw;">At Creative Project, we want to ensure a smooth and successful printing experience for our valued customers. Please keep the above mentioned reminders in mind.</p>
+    <p class="teamdesc"><i>" We take pride in our sustainable practices and strive to minimize our environmental footprint. By utilizing eco-friendly materials, implementing efficient processes, and promoting responsible waste management, we are committed to being an environmentally conscious printing business. "</i></p>
+
+  
+
+</div>
+
+
+
+
+
+
+
+
+
+     
+        
+    <footer >
+       <img class="footerimg" src="images/footer.png" height="120px">
+    </img>
+    
+    </footer>
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header" >
+              <h1 class="modal-title fs-5" id="exampleModalLabel" >Welcome to Creative Project</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            
+            <form style="padding: 2vw;"">
+              <!-- Email input -->
+              <div class="form-outline mb-4">
+                <input type="email" id="form2Example1" class="form-control" placeholder="Enter your email address here" />
+                <label class="form-label" for="form2Example1">Email address</label>
+              </div>
+            
+              <!-- Password input -->
+              <div class="form-outline mb-4">
+                <input type="password" id="form2Example2" class="form-control" placeholder="Enter your password here" />
+                <label class="form-label" for="form2Example2">Password</label>
+              </div>
+            
+              <!-- 2 column grid layout for inline styling -->
+              <div class="row mb-4">
+                <div class="col d-flex justify-content-center">
+                  <!-- Checkbox -->
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="form2Example34" checked />
+                    <label class="form-check-label" for="form2Example34"> Remember me </label>
+                  </div>
+                </div>
+            
+                <div class="col">
+                  <!-- Simple link -->
+                  <a href="#!">Forgot password?</a>
+                </div>
+              </div>
+            
+              <!-- Submit button -->
+              <center><button type="submit" class="btn btn-primary btn-block mb-4">Sign in</button></center>
+            
+              <!-- Register buttons -->
+              <div class="text-center">
+                <p>Not a member? <a href="#!">Register</a></p>
+                <p>or sign up with:</p>
+                <button type="button" class="btn btn-secondary btn-floating mx-1">
+                  <i class="fab fa-facebook-f"></i>
+                </button>
+            
+                <button type="button" class="btn btn-secondary btn-floating mx-1">
+                  <i class="fab fa-google"></i>
+                </button>
+            
+                <button type="button" class="btn btn-secondary btn-floating mx-1">
+                  <i class="fab fa-twitter"></i>
+                </button>
+            
+                <button type="button" class="btn btn-secondary btn-floating mx-1">
+                  <i class="fab fa-github"></i>
+                </button>
+              </div>
+            </form>
+  
+            <div class="modal-footer">
+              
+              <button type="button" class="btn btn-primary" onClick="location.href='index.html'"
+              value='click here' >Log in as Guest</button>
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
